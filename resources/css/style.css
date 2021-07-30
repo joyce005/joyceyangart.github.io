@@ -1,0 +1,76 @@
+/* HEADER START */
+/* Name "Container" */
+.home {
+  display: inline-block;
+}
+
+/* Name Link */
+.home a {
+  /* Orientation */
+  padding: 14px;
+
+  /* Text Specifications */
+  font-family: "Verdana", sans-serif;
+  font-size: 30px;
+  color: #44465B;
+  font-weight: normal;
+  font-stretch: semi-expanded;
+  text-decoration: none;
+}
+
+/* Menu Container */
+.topnav {
+  display: inline-block;
+}
+
+/* Menu Items */
+.topnav a {
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+  font-family: "Verdana", sans-serif;
+  font-size: 20px;
+  color: #44465B;
+  font-stretch: semi-expanded;
+}
+/* HEADER END */
+
+/* INDEX PAGE START */
+
+/* Images Container */
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Default Image Size Reference: width="600" height="750" */
+
+/* Images */
+.column img {
+  width: 300px;
+  padding: 0px 0px 8px 8px;
+}
+
+.column img:hover {
+  filter: brightness(70%);
+}
+/* INDEX PAGE END */
+
+/* SPECIFIC PORTFOLIO PAGES START */
+
+/* Images Container */
+.portfolio {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Images */
+.portfolio img {
+  width: 600px;
+}
+
+/* SPECIFIC PORTFOLIO PAGES END */
